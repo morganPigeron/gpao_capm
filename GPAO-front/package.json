@@ -1,0 +1,23 @@
+{
+  "name": "gpao-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "drawflow": "^0.0.59"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/drawflow": "^0.0.5",
+    "sass": "^1.66.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
